@@ -1,0 +1,28 @@
+{
+  "decors": [
+    {
+      "id": "decor_001",
+      "nom": "Nom du lieu",
+      "type": "Intérieur/Extérieur/Mixte",
+      "manga_compatible": ["manga_001", "manga_002"],
+      "scene": {
+        "moment": "Jour/Nuit/Crépuscule/Aube",
+        "meteo": "Ensoleillé/Pluvieux/Neigeux/Orageux",
+        "saison": "Printemps/Été/Automne/Hiver"
+      },
+      "caracteristiques": {
+        "architecture": "Description",
+        "vegetation": "Description",
+        "elements_notables": ["Élément 1", "Élément 2"],
+        "eclairage": "Description de la lumière"
+      },
+      "atmosphere": "Description émotionnelle",
+      "plans_disponibles": {
+        "wide": "Description plan large",
+        "medium": "Description plan moyen",
+        "close": "Description plan rapproché"
+      },
+      "prompt_environnement": "Description optimisée pour IA"
+    }
+  ]
+}
