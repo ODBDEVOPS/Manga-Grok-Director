@@ -1,0 +1,22 @@
+{
+  "mangas": [
+    {
+      "id": "manga_001",
+      "titre": "One Piece",
+      "prompt_style": "eiichiro oda style, vibrant colors, exaggerated expressions, dynamic composition, thick lines",
+      "style_visuel": { "trait": "semi-realistic" }
+    },
+    {
+      "id": "manga_002",
+      "titre": "Jujutsu Kaisen",
+      "prompt_style": "gege akutami style, sharp lines, dark atmosphere, high contrast, cursed energy effects",
+      "style_visuel": { "trait": "realistic" }
+    },
+    {
+      "id": "manga_003",
+      "titre": "Demon Slayer",
+      "prompt_style": "koyoharu gotouge style, watercolor texture, breathing forms, glowing effects, dramatic lighting",
+      "style_visuel": { "trait": "painted" }
+    }
+  ]
+}
