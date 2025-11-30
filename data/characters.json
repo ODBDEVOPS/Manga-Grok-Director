@@ -7,6 +7,5 @@
     {"id":"c_005","name":"Gojo Satoru","manga":"m_004","prompt_base":"white hair, blindfold, black uniform, six eyes glow","aura":"limitless blue purple void"},
     {"id":"c_006","name":"Tanjiro Kamado","manga":"m_005","prompt_base":"hanafuda earrings, checkered haori, water breathing","aura":"hinokami kagura flames"},
     {"id":"c_007","name":"Eren Yeager","manga":"m_006","prompt_base":"long brown hair, survey corps cloak, intense green eyes","aura":"attack titan transformation lightning"}
-    // … +70 autres personnages dans le ZIP complet
   ]
 }
