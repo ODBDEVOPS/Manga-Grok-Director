@@ -1,5 +1,8 @@
 # Cin-Grok-Director
 
+https://odbdevops.github.io/Manga-Grok-Director/
+
+```
 cinegrok-director/
 ├── index.html
 ├── styles.css
@@ -11,3 +14,4 @@ cinegrok-director/
 ├── templates/
 │   └── presets.json
 └── README.md
+```
