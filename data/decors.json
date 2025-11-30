@@ -1,28 +1,8 @@
 {
   "decors": [
-    {
-      "id": "decor_001",
-      "nom": "Nom du lieu",
-      "type": "Intérieur/Extérieur/Mixte",
-      "manga_compatible": ["manga_001", "manga_002"],
-      "scene": {
-        "moment": "Jour/Nuit/Crépuscule/Aube",
-        "meteo": "Ensoleillé/Pluvieux/Neigeux/Orageux",
-        "saison": "Printemps/Été/Automne/Hiver"
-      },
-      "caracteristiques": {
-        "architecture": "Description",
-        "vegetation": "Description",
-        "elements_notables": ["Élément 1", "Élément 2"],
-        "eclairage": "Description de la lumière"
-      },
-      "atmosphere": "Description émotionnelle",
-      "plans_disponibles": {
-        "wide": "Description plan large",
-        "medium": "Description plan moyen",
-        "close": "Description plan rapproché"
-      },
-      "prompt_environnement": "Description optimisée pour IA"
-    }
+    {"id":"d_001","nom":"Going Merry – Sunny Day","manga_compatible":["m_001"],"prompt_environnement":"wooden pirate ship with sheep figurehead, blue ocean, sunny sky, seagulls","scene":{"moment":"Jour","meteo":"Ensoleillé"}},
+    {"id":"d_002","nom":"Hidden Leaf Village","manga_compatible":["m_002"],"prompt_environnement":"ninja village, hokage rock faces, red roofs, forest","scene":{"moment":"Jour","meteo":"Ensoleillé"}},
+    {"id":"d_003","nom":"Shiganshina District","manga_compatible":["m_006"],"prompt_environnement":"walled city, giant walls, medieval buildings, dramatic sky","scene":{"moment":"Crépuscule","meteo":"Orageux"}}
+    // … +47 autres décors
   ]
 }
