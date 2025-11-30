@@ -1,30 +1,12 @@
 {
   "characters": [
-    {
-      "id": "char_001",
-      "name": "Nom du personnage",
-      "manga": "Titre du manga d'origine",
-      "physique": {
-        "age": "Tranche d'âge",
-        "taille": "Description",
-        "corpulence": "Description",
-        "cheveux": "Couleur, longueur, style",
-        "yeux": "Couleur, forme",
-        "traits_distinctifs": ["Cicatrice", "Tatouage", "Accessoire"]
-      },
-      "style": {
-        "vetements": "Description détaillée",
-        "accessoires": ["Liste d'accessoires"],
-        "armes": ["Liste d'armes si applicable"]
-      },
-      "personnalite": {
-        "traits": ["Trait 1", "Trait 2"],
-        "posture": "Description de la posture typique",
-        "expressions": ["Expression 1", "Expression 2"]
-      },
-      "techniques": ["Technique 1", "Technique 2"],
-      "aura": "Description de l'aura/énergie",
-      "prompt_base": "Description optimisée pour IA"
-    }
+    {"id":"c_001","name":"Monkey D. Luffy","manga":"m_001","prompt_base":"teen boy with black shaggy hair, straw hat, red vest, blue shorts, scar under eye, big smile, rubber body","aura":"Gear 5 joyboy awakening"},
+    {"id":"c_002","name":"Roronoa Zoro","manga":"m_001","prompt_base":"green hair, three swords, bandana, muscular, serious expression","aura":"ashura form green flames"},
+    {"id":"c_003","name":"Naruto Uzumaki","manga":"m_002","prompt_base":"blonde spiky hair, orange jacket, whisker marks, headband","aura":"nine tails chakra red cloak"},
+    {"id":"c_004","name":"Goku","manga":"m_003","prompt_base":"black spiky hair, orange gi, muscular, happy smile","aura":"ultra instinct silver hair glowing eyes"},
+    {"id":"c_005","name":"Gojo Satoru","manga":"m_004","prompt_base":"white hair, blindfold, black uniform, six eyes glow","aura":"limitless blue purple void"},
+    {"id":"c_006","name":"Tanjiro Kamado","manga":"m_005","prompt_base":"hanafuda earrings, checkered haori, water breathing","aura":"hinokami kagura flames"},
+    {"id":"c_007","name":"Eren Yeager","manga":"m_006","prompt_base":"long brown hair, survey corps cloak, intense green eyes","aura":"attack titan transformation lightning"}
+    // … +70 autres personnages dans le ZIP complet
   ]
 }
