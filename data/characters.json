@@ -1,0 +1,30 @@
+{
+  "characters": [
+    {
+      "id": "char_001",
+      "name": "Nom du personnage",
+      "manga": "Titre du manga d'origine",
+      "physique": {
+        "age": "Tranche d'âge",
+        "taille": "Description",
+        "corpulence": "Description",
+        "cheveux": "Couleur, longueur, style",
+        "yeux": "Couleur, forme",
+        "traits_distinctifs": ["Cicatrice", "Tatouage", "Accessoire"]
+      },
+      "style": {
+        "vetements": "Description détaillée",
+        "accessoires": ["Liste d'accessoires"],
+        "armes": ["Liste d'armes si applicable"]
+      },
+      "personnalite": {
+        "traits": ["Trait 1", "Trait 2"],
+        "posture": "Description de la posture typique",
+        "expressions": ["Expression 1", "Expression 2"]
+      },
+      "techniques": ["Technique 1", "Technique 2"],
+      "aura": "Description de l'aura/énergie",
+      "prompt_base": "Description optimisée pour IA"
+    }
+  ]
+}
