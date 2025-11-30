@@ -1,0 +1,25 @@
+{
+  "templates": [
+    {
+      "id": "combat",
+      "name": "Combat Dynamique",
+      "action": "Le personnage charge une attaque ultime, son aura explose en lumière bleue, des éclairs parcourent son corps, vitesse supersonique, ondes de choc radiales, speed lines partout, impact frame au moment du coup",
+      "camera": { "type": "Medium Shot", "movement": "Zoom In", "angle": "Low Angle" },
+      "dramatic": 95
+    },
+    {
+      "id": "transformation",
+      "name": "Transformation Épique",
+      "action": "Le personnage hurle, son corps est entouré d'une aura flamboyante, ses cheveux deviennent dorés, ses yeux changent de couleur, l'environnement tremble, particules d'énergie partout",
+      "camera": { "type": "Wide Shot", "movement": "Orbit Clockwise", "angle": "Low Angle" },
+      "dramatic": 100
+    },
+    {
+      "id": "emotion",
+      "name": "Scène Émotionnelle",
+      "action": "Le personnage pleure en silence, gros plan sur son visage, larmes qui coulent, flashback en transparence, musique dramatique implicite",
+      "camera": { "type": "Extreme Close-Up", "movement": "Static", "angle": "Eye Level" },
+      "dramatic": 60
+    }
+  ]
+}
