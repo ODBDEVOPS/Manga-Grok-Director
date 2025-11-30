@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CinéGrok Director | Manga Video Prompt Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>CinéGrok Director</h1>
+      <p>Constructeur de prompts vidéo manga IA • Optimisé pour Grok, Sora, Runway, Kling...</p>
+    </header>
+
+    <section id="selection-section">
+      <h2>Sélection</h2>
+      <label>Template prédéfini</label>
+      <select id="template-select">
+        <option value="">Aucun template (personnalisé)</option>
+      </select>
+
+      <label>Manga</label>
+      <select id="manga-select">select>
+
+      <label>Personnage <span id="char-compat" class="compatibility">span></label>
+      <select id="character-select">select>
+
+      <label>Décor <span id="decor-compat" class="compatibility">span></label>
+      <select id="decor-select">select>
+    section>
+
+    <section id="construction-section">
+      <h2>Construction du Prompt</h2>
+
+      <label>Master Prompt (style global)</label>
+      <textarea id="master-prompt" placeholder="Ex: 8K, masterpiece, cinematic lighting, vibrant colors...">textarea>
+
+      <label>Action / Scénario</label>
+      <textarea id="action-scenario" placeholder="Décrivez précisément l'action, l'émotion, les effets...">textarea>
+
+      <h3>Caméra</h3>
+      <div class="grid-3">
+        <div>
+          <label>Type de plan</label>
+          <select id="camera-type">
+            <option>Wide Shot</option>
+            <option>Medium Shot</option>
+            <option>Close-Up</option>
+            <option>Extreme Close-Up</option>
+          </select>
+        </div>
+        <div>
+          <label>Mouvement</label>
+          <select id="camera-movement">
+            <option>Static</option>
+            <option>Pan Left</option>
+            <option>Pan Right</option>
+            <option>Pan Up</option>
+            <option>Pan Down</option>
+            <option>Zoom In</option>
+            <option>Zoom Out</option>
+            <option>Orbit Clockwise</option>
+            <option>Orbit Counter-clockwise</option>
+            <option>Tracking Smooth</option>
+            <option>Dolly In</option>
+          </select>
+        </div>
+        <div>
+          <label>Angle</label>
+          <select id="camera-angle">
+            <option>Eye Level</option>
+            <option>Low Angle</option>
+            <option>High Angle</option>
+            <option>Dutch Angle</option>
+            <option>Bird's Eye</option>
+          select>
+        </div>
+      </div>
+
+      <h3>Cohérence & Effets Manga</h3>
+      <div class="checkbox-group">
+        <label><input type="checkbox" id="keep-appearance" checked> Apparence exacte du personnage</label>
+        <label><input type="checkbox" id="keep-palette" checked> Palette couleurs du manga</label>
+        <label><input type="checkbox" id="speed-lines"> Speed lines & motion blur</label>
+        <label><input type="checkbox" id="aura-effects"> Aura / énergie visible</label>
+        <label><input type="checkbox" id="impact-frames"> Impact frames (combat)</label>
+      </div>
+
+      <div class="grid-2">
+        <div class="slider-container">
+          <label>Intensité dramatique</label>
+          <input type="range" id="dramatic-slider" min="0" max="100" value="75">
+          <div class="value-display"><span id="dramatic-value">75</span>%</div>
+        </div>
+        <div class="slider-container">
+          <label>Fidélité au style original</label>
+          <input type="range" id="fidelity-slider" min="0" max="100" value="90">
+          <div class="value-display"><span id="fidelity-value">90</span>%</div>
+        </div>
+      </div>
+    section>
+
+    <section id="preview-section">
+      <h2>Prévisualisation & Export</h2>
+      
+      <div class="tabs">
+        <button class="tab active" data-tab="single">Prompt Unique</button>
+        <button class="tab" data-tab="storyboard">Mode Storyboard (β)</button>
+      </div>
+
+      <div id="single-tab" class="tab-content active">
+        <div class="preview" id="prompt-preview">Sélectionnez des éléments pour commencer...</div>
+      </div>
+
+      <div id="storyboard-tab" class="tab-content">
+        <button id="add-frame" class="btn-secondary">+ Ajouter un plan</button>
+        <div id="storyboard-frames">div>
+      </div>
+
+      <div class="actions">
+        <button class="btn-primary" id="generate-btn">Générer Prompt Final</button>
+        <button class="btn-secondary" id="copy-btn">Copier</button>
+        <button class="btn-primary" id="save-btn">Sauvegarder Config</button>
+        <button class="btn-secondary" id="load-btn">Charger Config</button>
+        <button id="reset-btn">Réinitialiser</button>
+      </div>
+
+      <h3>Negative Prompt (automatique)</h3>
+      <div class="preview" id="negative-preview">div>
+    section>
+  </div>
+
+  <script src="app.js">script>
+body>
+html>
