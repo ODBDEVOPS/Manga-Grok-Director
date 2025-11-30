@@ -1,11 +1,21 @@
 {
   "characters": [
-    {"id":"c_001","name":"Monkey D. Luffy","manga":"m_001","prompt_base":"teen boy with black shaggy hair, straw hat, red vest, blue shorts, scar under eye, big smile, rubber body","aura":"Gear 5 joyboy awakening"},
-    {"id":"c_002","name":"Roronoa Zoro","manga":"m_001","prompt_base":"green hair, three swords, bandana, muscular, serious expression","aura":"ashura form green flames"},
-    {"id":"c_003","name":"Naruto Uzumaki","manga":"m_002","prompt_base":"blonde spiky hair, orange jacket, whisker marks, headband","aura":"nine tails chakra red cloak"},
-    {"id":"c_004","name":"Goku","manga":"m_003","prompt_base":"black spiky hair, orange gi, muscular, happy smile","aura":"ultra instinct silver hair glowing eyes"},
-    {"id":"c_005","name":"Gojo Satoru","manga":"m_004","prompt_base":"white hair, blindfold, black uniform, six eyes glow","aura":"limitless blue purple void"},
-    {"id":"c_006","name":"Tanjiro Kamado","manga":"m_005","prompt_base":"hanafuda earrings, checkered haori, water breathing","aura":"hinokami kagura flames"},
-    {"id":"c_007","name":"Eren Yeager","manga":"m_006","prompt_base":"long brown hair, survey corps cloak, intense green eyes","aura":"attack titan transformation lightning"}
+    {"id":"c_001","name":"Monkey D. Luffy","manga":"m_001","prompt_base":"teen boy, black shaggy hair, straw hat, red vest, blue shorts, scar under left eye, big smile, rubber-like body, carefree expression","aura":"Gear 5 joyboy white hair and lightning"},
+    {"id":"c_002","name":"Roronoa Zoro","manga":"m_001","prompt_base":"green hair, three swords, bandana, muscular build, serious expression, scar over eye","aura":"ashura nine sword style green flames"},
+    {"id":"c_003","name":"Naruto Uzumaki","manga":"m_002","prompt_base":"blonde spiky hair, orange jacket, whisker marks, konoha headband, blue eyes","aura":"nine tails red chakra cloak"},
+    {"id":"c_004","name":"Sasuke Uchiha","manga":"m_002","prompt_base":"black hair, sharingan red eyes, purple rope belt, curse mark","aura":"susanoo purple skeleton"},
+    {"id":"c_005","name":"Son Goku","manga":"m_003","prompt_base":"black spiky hair, orange gi, muscular, tail (sometimes), happy smile","aura":"ultra instinct silver hair and aura"},
+    {"id":"c_006","name":"Vegeta","manga":"m_003","prompt_base":"black upward spiky hair, widow's peak, saiyan armor, proud expression","aura":"ultra ego purple hair"},
+    {"id":"c_007","name":"Gojo Satoru","manga":"m_004","prompt_base":"white hair, blindfold or sunglasses, black high-collar uniform, six eyes glow","aura":"limitless blue void and purple hollow"},
+    {"id":"c_008","name":"Itadori Yuji","manga":"m_004","prompt_base":"pink hair, school uniform, sukuna marks on face when angry","aura":"black flash cursed energy"},
+    {"id":"c_009","name":"Tanjiro Kamado","manga":"m_005","prompt_base":"burgundy hair, hanafuda earrings, green-black checkered haori, scar on forehead","aura":"hinokami kagura sun breathing flames"},
+    {"id":"c_010","name":"Eren Yeager","manga":"m_006","prompt_base":"long brown hair, survey corps cloak, intense green eyes, muscular","aura":"founding titan transformation lightning"},
+    {"id":"c_011","name":"Denji","manga":"m_007","prompt_base":"blonde messy hair, chainsaw head when transformed, public safety suit","aura":"pochita devil form"},
+    {"id":"c_012","name":"Deku (Izuku Midoriya)","manga":"m_008","prompt_base":"green hair, freckles, hero costume green, all might smile","aura":"one for all green lightning"},
+    {"id":"c_013","name":"Ichigo Kurosaki","manga":"m_009","prompt_base":"orange hair, black shihakusho, zangetsu on back","aura":"mugetsu black reiatsu"},
+    {"id":"c_014","name":"Gon Freecss","manga":"m_010","prompt_base":"green spiky hair, green outfit, fishing rod, big eyes","aura":"adult gon muscular transformation"},
+    {"id":"c_015","name":"Light Yagami","manga":"m_012","prompt_base":"brown hair, suit, holding death note, red eyes when using","aura":"shinigami wings"},
+    {"id":"c_016","name":"Anya Forger","manga":"m_014","prompt_base":"pink hair, hair cones, green eyes, cute dress, telepath glow","aura":"peanut excitement"},
+    {"id":"c_017","name":"Sung Jin-Woo","manga":"m_015","prompt_base":"black hair, black coat, purple eyes, shadow army","aura":"shadow monarch purple flames"}
   ]
 }
